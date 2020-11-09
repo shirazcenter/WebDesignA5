@@ -1,3 +1,10 @@
+/* FONTS AND THINGS */
+
+.sansserif {
+  font-family: sans-serif;
+}
+
+
 
 /* NAVIGATION BAR */ 
 
@@ -41,7 +48,11 @@ ul {
   top: 0;
 }
 
+/* Search bar */
 
+
+
+/* Subnavigation */
 
 
 
@@ -63,37 +74,12 @@ ul {
   position: relative;
   text-align: center;
   color: white;
+
 }
 
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
+/* HOME */
 
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
+/* Centered text for home page */
 .centered {
   position: absolute;
   top: 50%;
@@ -102,8 +88,105 @@ ul {
 }
 
 
+/* JOURNAL */
+
+/* Centered text for journal page */
+.centeredjournal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #73A900;
+
+}
+
+/* Under centered text */
+.belowcenteredjournal {
+  position: absolute;
+  top: 59%;
+  left: 47.5%;
+  transform: translate(-50%, -50%);
+}
+
+/* Journal explanation para */
+.journaltitlecontent {
+position: absolute;
+top: 72%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+width: 65%;
+}
+
+/* Volume number */
+.volumenumber {
+position: absolute;
+top: 100%;
+left: 20%;
+transform: translate(-50%, -50%);
+text-align: left;
+}
+
+/* Volume content */
+.volumecontent5 {
+position: absolute;
+top: 110%;
+left: 48%;
+transform: translate(-80%, -80%);
+text-align: left;
+
+}
 
 
+
+/* BUTTONS ON IMAGE */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .donatebutton {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 12px 82px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.container .donatebutton:hover {
+  background-color: black;
+}
+.container .subscribebutton {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #73A900;
+  color: white;
+  font-size: 20px;
+  padding: 12px 72px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.container .subscribebutton:hover {
+  background-color: black;
+}
 
 
 
@@ -120,6 +203,11 @@ ul {
 
 /* hide the images */
 .mySlides {
+  display: none;
+}
+
+/* hide the images */
+.mySlides2 {
   display: none;
 }
 
